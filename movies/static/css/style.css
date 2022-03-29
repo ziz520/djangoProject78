@@ -394,7 +394,7 @@ li > a:only-child:after {
 }
 
 .main-banner.inner {
-    background: url();
+    background: url(../images/banner.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
