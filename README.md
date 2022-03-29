@@ -1,2 +1,2 @@
-# djangoProject12
+# djangoProject1
 project
