@@ -383,7 +383,7 @@ li > a:only-child:after {
 /*--/banner --*/
 
 .main-banner {
-    background: url(../images/banner.jpg)no-repeat center;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6991e060-2384-4a9a-a7b5-4ad5bf84a978/dce4pe4-d587ccff-fc52-4842-9323-38f40fe0c6a7.png/v1/fill/w_800,h_800,q_80,strp/white_aesthetic_by_doodling_dodo_dce4pe4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvNjk5MWUwNjAtMjM4NC00YTlhLWE3YjUtNGFkNWJmODRhOTc4XC9kY2U0cGU0LWQ1ODdjY2ZmLWZjNTItNDg0Mi05MzIzLTM4ZjQwZmUwYzZhNy5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.zaWydfyJjORsqlU_D4FA_h32JDsTDXqo7qnTi2Dv2q0)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -394,7 +394,7 @@ li > a:only-child:after {
 }
 
 .main-banner.inner {
-    background: url(../images/banner.jpg)no-repeat center;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6991e060-2384-4a9a-a7b5-4ad5bf84a978/dce4pe4-d587ccff-fc52-4842-9323-38f40fe0c6a7.png/v1/fill/w_800,h_800,q_80,strp/white_aesthetic_by_doodling_dodo_dce4pe4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvNjk5MWUwNjAtMjM4NC00YTlhLWE3YjUtNGFkNWJmODRhOTc4XC9kY2U0cGU0LWQ1ODdjY2ZmLWZjNTItNDg0Mi05MzIzLTM4ZjQwZmUwYzZhNy5wbmciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.zaWydfyJjORsqlU_D4FA_h32JDsTDXqo7qnTi2Dv2q0)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -843,7 +843,7 @@ ul.w3layouts-box-list li {
 }
 
 .grid-img-right {
-    background: url(../images/single.jpg)no-repeat center;
+    background: url(../images/)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
