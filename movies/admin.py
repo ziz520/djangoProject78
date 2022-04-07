@@ -9,6 +9,7 @@ class CategoryAdmin(admin.ModelAdmin):
     """Категории"""
     list_display = ("id", "name", "url")
     list_display_links = ("name",)
+#     fsfdgdgd
 
 
 class ReviewInline(admin.TabularInline):
