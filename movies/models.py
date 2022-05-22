@@ -5,7 +5,6 @@ from django.urls import reverse
 
 
 class Category(models.Model):
-    """Категории"""
     name = models.CharField("Категория", max_length=150)
     description = models.TextField("Описание")
     url = models.SlugField(max_length=160, unique=True)
@@ -19,7 +18,6 @@ class Category(models.Model):
 
 
 class Actor(models.Model):
-    """Актеры и режиссеры"""
     name = models.CharField("Имя", max_length=100)
     age = models.PositiveSmallIntegerField("Возраст", default=0)
     description = models.TextField("Описание")
@@ -27,6 +25,9 @@ class Actor(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('actor_detail', kwargs={"slug": self.name})
 
     class Meta:
         verbose_name = "Актеры и режиссеры"
@@ -86,6 +87,12 @@ class Movie(models.Model):
         verbose_name_plural = "Фильмы"
 
 
+    class Meta:
+        ordering = ['-id']
+
+
+
+
 class MovieShots(models.Model):
     """Кадры из фильма"""
     title = models.CharField("Заголовок", max_length=100)
@@ -101,12 +108,14 @@ class MovieShots(models.Model):
         verbose_name_plural = "Кадры из фильма"
 
 
+
+
 class RatingStar(models.Model):
     """Звезда рейтинга"""
     value = models.SmallIntegerField("Значение", default=0)
 
     def __str__(self):
-        return self.value
+        return f'{self.value}'
 
     class Meta:
         verbose_name = "Звезда рейтинга"
